@@ -1,0 +1,36 @@
+## commands 
+alias klog="klog nrad -cell hephy.at"
+alias gitssh='eval `ssh-agent` ; ssh-add ~/.ssh/git_id_rsa'
+alias ducks='du -cks * | sort -rn | head'
+
+alias cmssw="cd /afs/hephy.at/work/n/nrad/CMSSW" 
+alias gen="cd /afs/hephy.at/work/n/nrad/CMSSW/CMSSW_7_4_1_patch1/src/Workspace/DegenerateStopAnalysis/T2DegStop13TeVEventGeneration/RunII"
+alias anl="cd /afs/hephy.at/work/n/nrad/CMSSW/CMSSW_7_2_3/src/Workspace/DegenerateStopAnalysis/plotsNavid/analysis/"
+alias phys14="cd /afs/hephy.at/user/n/nrad/CMSSW/CMSSW_7_2_0/src/Workspace/DegenerateStopAnalysis/T2DegStop13TeVEventGeneration/Phys14/lhe2miniAOD"
+
+
+
+
+alias 732stop="cd /afs/hephy.at/scratch/n/nrad/CMSSW_7_3_2_patch1/src/lhe2miniAOD"
+
+
+
+
+
+
+alias deg="cd /afs/hephy.at/scratch/n/nrad/CMSSW/CMSSW_7_2_3/src/Workspace/DegenerateStopAnalysis/plotsNavid"
+alias cmg="cd /afs/hephy.at/scratch/n/nrad/CMSSW/CMSSW_7_2_3/src/CMGTools/TTHAnalysis/"
+
+
+
+alias www='cd /afs/hephy.at/user/n/nrad/www/'
+
+### CMSSW
+
+alias 723='source ~/.toDir.sh /afs/hephy.at/work/n/nrad/CMSSW/CMSSW_7_2_3/src slc6_amd64_gcc472'
+alias 740='source ~/.toDir.sh /afs/hephy.at/work/n/nrad/CMSSW/CMSSW_7_4_1_patch1/src slc6_amd64_gcc472'
+
+
+
+### ENVVARS
+alias crab2='source /afs/cern.ch/cms/ccs/wm/scripts/Crab/crab.sh'
